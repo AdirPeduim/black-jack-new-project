@@ -1,0 +1,41 @@
+.App {
+  /*background-size: cover;*/
+  background-size: cover;
+  height: 100%;
+  /* text-align: -webkit-center; */
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.button {
+  box-shadow: inset 0px 1px 3px 0px #5dc993;
+  background: linear-gradient(to bottom, #768d87 5%, #5dc993 100%);
+}
+#newGame {
+  top: 5%;
+  left: 5%;
+}
+#hit {
+  top: 45%;
+  left:30%;
+  margin-right: 2%;
+
+}
+#stand {
+  top: 45%;
+  left:30%;
+}
+/*.App-header {
+  backgroundImage: url(${poker-table-background-green-color}); 
+  background-color: #268d48; 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}*/
